@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+      <title>Code-Number Systems</title>
+
+    </head>
+    <style>
+    body {background-color: rgb(135, 142, 145);
+          color: rgb(247, 247, 247);
+          font-family: sans-serif;}
+    h1 {color: rgb(255, 255, 255);}
+    h2 {color: rgb(255, 255, 255);}
+
+    </style>
+
+
+      <h1><center>Number Systems</center></h1><br>
+
+    <body>
+
+      <h2>Finite Prime Fields</h2><br>
+      <h3>What is Finite Prime Fields?</h3><br>
+      The number of elements of a finite field is called its order.
+      A finite field of order q exists if and only if the order q is a prime power pk
+      (where p is a prime number and k is a positive integer).
+      All finite fields of a given order are isomorphic (corresponding or similar in form and relations).
+      In a field of order pk, adding p copies of any element always results in zero; that is, the characteristic of the field is p.<br><br>
+      The finite field with pn elements is denoted GF(pn) and is also called the Galois Field,
+      in honor of the founder of finite field theory, Évariste Galois. GF(p), where p is a prime number,
+      is simply the ring of integers modulo p. That is, one can perform operations (addition, subtraction, multiplication)
+      using the usual operation on integers, followed by reduction modulo p.<br><br><br><br>
+
+      <h3>Importance of Finite Prime Fields In Technology</h3><br>
+      The most popular and widely used application of Galois Field is in Cryptography.
+      Mor generally, Cryptography is about constructing and analyzing protocols that prevent
+      third parties or the public from reading private messages Since each byte of data are represented
+      as a vector in a finite field, encryption and decryption using mathematical arithmetic is
+      very straightforward and is easily manipulable.
+      In 2001, Vincent Rijmen and John Daemon came up with a more complicated algorithm called Rijndael
+      and it has been the Advanced Encryption Standard (AES) ever since.<br>
+
+      <h3>Importance of Finite Prime Fields In Technology</h3><br>
+      Since Finite Prime Fields are commonly used for Cryptography (secret codes),
+      they can also be used to develop chips that use encryption to control which ink cartridges
+      and printers work together. Most of these cartridges are made by printer manufacturers and
+      sell for a substantial premium. Some come from unauthorized sources,
+      sell for substantially less and attract the attention of anti-piracy lawyers.Cryptography Research Inc.
+      (CRI), a San Francisco company,
+      is developing chip technology aimed at helping printer manufacturers protect this primary source of profit.
+      The company's chips use cryptography designed to make it harder for printers to use
+      off-brand and counterfeit cartridges.<br>
+
+      <h4>There are three main ways the $60 billion-a-year worldwide printing industry loses money:</h4><br>
+      <ul>
+        <li>Used cartridges get refilled and sold as "new"-- instead of as remanufactured.
+        <li>Cartridges get illegally replicated through reverse engineering.
+        <li>Printers get hacked or physically altered to use any type of ink.
+      </ul>
+      CRI also said that the chip will be designed that so large portions of it will have no decipherable structure,
+       a feature that would thwart someone attempting to reverse-engineer the chip by examining it under a microscope to determine how it works.<br><br>
+
+       <img src="https://htpr.cnet.com/p/?u=http://asset2.cbsistatic.com/cnwk.1d/i/ne/p/2007/CRIphoto_210x157.jpg&h=_X_vHRU_PRmFCz3o3O93-Q" width="250">    <img src="http://www.myce.com/wp-content/images_posts/2016/09/myce-ink-cartridge-chip.png" width="300"><br><br>
+
+      <h2>Binary Code</h2><br>
+      <h3>What is Binary Code?</h3><br>
+      Binary code is the simplest form of computer code or programming data.
+      It is represented entirely by a binary system of digits consisting of a string of consecutive zeros and ones (0, 1).
+      Binary code is often associated with machine code in that binary sets can be combined to form raw code,
+      which is interpreted by a computer or other piece of hardware.<br><br><br>
+
+      <h3>Importance of Binary Coding In Technology</h3><br>
+      The nature of binary code and binary data is an interesting part of the fundamental world of IT.
+      It is most familiar to those who work behind the scenes to create today's user-oriented technologies,
+      which often keep all kinds of computer code hidden from users.<br><br>
+      A computer is built with many connections and components, which are used to transfer and store data,
+      as well as communicate with other components. Most of that storing, transferring,
+      and communicating happens with digital electronics. Digital electronics use the binary system (ON/OFF).
+      A signal with a series of ON/OFF pulses is equal to a binary number.<br><br><br>
+
+      <h3>Binary Coding In Printers & Computers</h3><br>
+      Printers and Computers work hand in hand in order to create pictures and graphics that people all over the world use.
+      Computers are responsible for processing the pixels and codes and generating them into a image that we can actually see.
+      This is called Digital Imaging. A term used to describe a computer generated image.
+      Digital is referring to the two digits of the binary number system...0 and 1. Each binary number is called a "bit".<br><br>
+      All the information and commands used within a computer are expressed in this binary number system.
+      Computers may offer higher forms of notation such as our alphabet and the decimal numbers,
+      but they are first stored as combinations of 0s and 1s.<br><br>
+      In order to create color for the pictures, a command must be made.
+      The RGB or CMYK channels in Photoshop are not necessarily a "color"; they are data,
+      which displays in a channel as a grey image and will be translated to color only when interpreted by an output device - monitors,
+      printers or printing processes.<br>
+      There are more than one way to describe color. Red, green and blue (RGB) is one. CMY, cyan,
+      magenta and yellow is another color space. This is the basis for the inks used to print color in magazines.
+      Because the inks can't do a perfect job of making colors, printers also use black ink (referred to as K)
+      and the printer's color space is called CMYK.<br><br>
+
+      <img src="http://i.stack.imgur.com/DKSsi.png" width="300"><br><br><br><hr><br><br>
+
+
+      <h2>Octal Numbering System</h2><br>
+      <h3>What is Octal Numbering System?</h3><br>
+      The Octal Numbering System is very similar in principle to the hexadecimal numbering system except that in Octal,
+      a binary number is divided up into groups of only 3 bits, with each group or set of bits having a distinct value of between 000
+      (0) and 111 ( 4+2+1 = 7 ).<br><br>
+      It uses less symbols than our conventional number system.
+      Octal is fancy for Base Eight meaning eight symbols are used to represent all the quantities. They are 0, 1, 2, 3, 4, 5, 6,
+      and 7. When we count up one from the 7,
+      we need a new placement to represent what we call 8 since an 8 doesn't exist in Octal.
+      So, after 7 is 10. Just like how we used powers of ten in decimal and powers of two in binary,
+      to determine the value of a number we will use powers of 8 since this is Base Eight.<br><br>
+      Consider the number 3623 in base eight. Each additional placement to the left has more value than it did in binary.
+      The third digit from the right in binary only represented 23-1, which is 4. In octal, that is 83-1which is 64.<br><br><br>
+
+      <h3>Octal In Printers & Computers</h3><br>
+      Octal numbers that are used in some programming languages (C, Perl, PostScript…)
+      for textual/graphical representations of byte strings when some byte values
+      (unrepresented in a code page, non-graphical, having special meaning in current context or otherwise undesired)
+      have to be to escaped as \nnn. Octal representation may be particularly handy with non-ASCII bytes of UTF-8,
+      which encodes groups of 6 bits, and where any start byte has octal value \3nn and any continuation byte has octal value \2nn.
+      Although Binary and Hexadecimal number systems are more favoured.<br><br><br><hr><br><br>
+
+      <h2>The Hexadecimal System</h2><br>
+      <h3>What is The Hexadecimal System?</h3><br>
+      The hexadecimal system is Base Sixteen. As its base implies, this number system uses sixteen symbols to represent numbers.
+      Unlike binary and octal, hexadecimal has six additional symbols that it uses beyond the conventional ones found in decimal.
+      But what comes after 9? 10 is not a single digit but two… Fortunately,
+      the convention is that once additional symbols are needed beyond the normal ten, letters are to be used.
+      So, in hexadecimal, the total list of symbols to use is 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F.
+      In a digital display, the numbers B and D are lowercase.<br><br><br>
+
+      <h3>Hexadecimal In Printers & Computers</h3><br>
+
+      Just like Binary numbers, Hexadecimals can be used to create digital images,
+      that are composed of tiny amounts of information. The pixel is the unit of measure for a digital image.
+      One pixel represents a single color. Colors are represented in hex, RGB, and other identification schemes.
+      Pixels are identified by their location within the coordinate grid.
+      In CSS, we use a pound sign (#) and then a six character hexadecimal number to represent the color.
+      Therefore, #FF0000, which is red, is actually a hex number. In computers, encoding is the process of putting a sequence of characters (letters, numbers, punctuation, and certain symbols) into a specialized format for efficient transmission or storage [14,17]. Decoding is the opposite process the conversion of an encoded format back into the original sequence of characters. Encoding and decoding are used in storage like tape storage and printers as well as data communications and networking. <br><br>
+      For encoding, integers are converted into binary number and then convert these binary to hexadecimal
+      numbers and stored in text format. This text format file is encoded file, which provides security [14,17].
+      After that text is encoded into a file, its data is streamed into the printer and an
+      electronic circuit in the printer (effectively, a small computer in its own right)
+      figures out how to print this data so it looks correct on the page.
+      Now this hexadecimal conversion contains numbers range from 0-16.As we have representing the 0-255
+      numbers into 0-16 range, redundancy will increase because repetitions only within 0-15 combinations
+      and with this more redundancy will get better compression.<br><br>
+
+      <img src="https://cdn4.explainthatstuff.com/how-laser-printer-works.png" width="300"><br><br><br><hr><br><br>
+
+
+      <h2>ASCII</h2><br>
+      <h3>What is ASCII?</h3><br>
+      ASCII is an acronym for American Standard Code for Information Interchange,
+      a widely used standard for encoding text documents on computers.
+      Usually, a file described as "ASCII" does not contain any special embedded control characters;
+      you can view the contents of the file, change it with an editor,
+      or print it with a printer.<br><br><br>
+
+      <h3>The Importance of ASCII in Technology</h3><br>
+      The format of a file, whether ASCII or binary,
+      becomes important when you are transferring files between computers.
+      For example, when using FTP, you can transfer ASCII text files without any special consideration.
+      To exchange binary files, however, you may need to enter the command set
+      binary or otherwise prepare the client to transfer binary files,
+      so that the computer will correctly transmit the special characters in the file.<br><br><br>
+
+      <h3>ASCII in Computerts and Printers</h3><br>
+      Computers operate using numbers.
+      They therefore there need a way for a computer to convert letters (and other "characters")
+      to and from numbers so that they can be stored inside the computer and manipulated by the computer.
+      A set of codes, known as "ASCII" (American Standard Code for Information Interchange) are used.
+      These were initially developed for tasks such as sending documents to printers,
+      and many of the commands make sense in this context.<br><br>
+
+      Each letter is assigned a value according to its position within the ASCII table.
+      Every letter, number, punctuation mark, etc. (known as a character) is given a unique code.
+      Note there is a difference between the 8-bit binary representation of the number zero (00000000)
+      and the corresponding ASCII '0' (00110000) printing character.</p><br><br><hr><br><br>
+
+
+
+      <h2>Unicode</h2><br>
+      <h3>Wht is unicode?</h3><br>
+      Unicode is a computing industry standard for the consistent encoding, representation,
+      and handling of text expressed in most of the world's writing systems.
+      The Unicode Standard consists of a set of code charts for visual reference,
+      an encoding method and set of standard character encodings, a set of reference data files,
+      and a number of related items, such as character properties, rules for normalization, decomposition,
+      collation, rendering, and bidirectional display order
+      (for the correct display of text containing both right-to-left scripts,
+      such as Arabic and Hebrew, and left-to-right scripts).<br><br><br>
+
+      <h3>Unicode in Computers and Printers</h3><br>
+      SAP creates the print data without any font embedding.
+      That means, the printer is responsible for including all the fonts required on its system
+      (e.g. by adding them via DIMM chips). Independently of the interface you are using
+      (print data like PCL, pre-formatted data like SAPGOFU or raw data with RDI/UCPLAIN)
+      this is an elegant way to print Unicode documents on every printer.
+      There are several good conversion routines that are used by the standard output management
+      systems like SAP Document Presentment by OpenText (StreamServe), LRS VPSX or others.<br><br>
+
+      In 2012, SAP started a development based on a co-operation with the German SAP User Group (DSAG).
+      This Customer Engagement Initiative focused on solving this issue by developing a pure SAP solution.<br><br>
+
+      <h4>The requirements for this development were:</h4>
+      <ul>
+        <li>Generic solution to print Unicode documents in the most common languages on PCL- and Postscript-based printers for ABAP Lists,
+            SAPscript and SAP Smart Forms.
+          <li>High level of compatibility and minimized influence on performance.
+            <li>Inclusion of internal PDF conversion.
+              <li>Embedding of only the characters that are needed in the print data stream (font subsetting)
+                <li>SAP will license fonts and deliver a holistic solution.
+      </ul><br>
+
+      <img src="https://blogs.sap.com/wp-content/uploads/2013/07/05_07_243376.png" width="250">  <img src="https://km.zebra.com/library/ZEBRA/V_TECHS/V_TECHS_NA/Q42014/Unicode_UTF-8.jpg" width="275">
+
+    </body>
+
+    </html>
